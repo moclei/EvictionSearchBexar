@@ -111,11 +111,7 @@ export default class EvictionSplashScreen extends Component<Props> {
                                 disabled={!hasConsented}>
                                 Go to Search
                             </Button>
-                            <Button
-                                color={colors.accent}
-                                onPress={() => {this._retrieveData(); }}>
-                                Get Consent
-                            </Button>
+
                         </View>
                     </Card.Actions>
                 </Card>
@@ -125,6 +121,13 @@ export default class EvictionSplashScreen extends Component<Props> {
         );
     }
 
+    /*
+    <Button
+                                color={colors.accent}
+                                onPress={() => {this._retrieveData(); }}>
+                                Get Consent
+                            </Button>
+     */
     /*
     <View style={{flex: 1, paddingBottom: 16}}>
                         <View style={{flex: 1, flexDirection: 'row', alignItems: 'center'}}>
