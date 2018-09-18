@@ -126,7 +126,7 @@ export default class EvictionDetailScreen extends Component {
                             <Title>Disposition:</Title>
                             <Paragraph>Disposition Date: {dispDateStr}</Paragraph>
                             <Paragraph>Disposition: {eviction.disposition}</Paragraph>
-                            <Paragraph>Disposition Amount: ${eviction.dispositionAmount} )</Paragraph>
+                            <Paragraph>Disposition Amount: ${eviction.dispositionAmount}</Paragraph>
                         </Card.Content>
                     </Card>
             )
